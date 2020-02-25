@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+.content {
+	flex: 1;
+}
+.sidebar {
+	flex: 0 0 200px;
+}
+.top,
+.footer {
+	flex: 0 0 100px;
+	background: grey;
+	color: white;
+	font-size: 1.5em;
+}
+
+.menu-category {
+	padding-left: 16px;
+}
+.menu-category__delete {
+	display: inline-block;
+}
